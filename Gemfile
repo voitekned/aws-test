@@ -28,7 +28,7 @@ gem 'bootsnap', '>= 1.4.4', require: false
 
 # 本番環境用のgemグループを新しく作成しPostgresを指定
 group :production do
-  gem 'pg'
+  gem 'mysql2'
 end
 
 group :development, :test do
